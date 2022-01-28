@@ -1,0 +1,25 @@
+Class Test 
+{
+Public static void main(String[] args) 
+{
+Byte b = 127;
+++b;
+B++;
+System.out.println(“Value of variable b :”+b);
+}
+}
+
+
+
+Output: 
+
+ -127
+
+Explanation -> The Range of Byte is -128 to 127
+B =127
+B = ++b 
+Means b = -128
+B = b++
+Means b = -128 + 1
+ B = -127
+So , Output is -127
