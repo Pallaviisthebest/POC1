@@ -1,0 +1,21 @@
+Class Car 
+{
+Int wheels;
+String model;
+Car(int wheels, String model)
+{
+This.wheels = wheels;
+This.model = model;
+System.out.println(“Wheels of the Car is :\t” +wheels);
+}
+Public static void main(String[] args) 
+{
+Car obj = new Car(4,”BMW”);
+System.out.println(“Model of the Car is :\t”+obj.model);
+}
+}
+
+Output :
+
+Wheels of the Car is : 4
+Model of the Car is : BMWS
