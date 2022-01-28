@@ -1,0 +1,23 @@
+
+Class Main 
+{
+Public static void main(String[] args) 
+{
+Int t;
+System.out.println(“Value of variable t : “+t);
+}
+}
+
+
+Output:
+
+
+Compilation Error –
+Main.java:6: error: variable t might not have been initialized
+ System.out.println(“Value of variable t : “+t);
+ ^
+Error 1
+
+Explanation –
+In Java if a Variable Declared in main method without Initialization and print it then, it 
+will give Compilation Error because, In java Globally initialized variable then it will run.
